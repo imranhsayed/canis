@@ -1,118 +1,43 @@
-Blank Theme
-===
+=== Powen Lite ===
 
-Blank Theme is a custom blank theme created with underscore theme, which includes foundation basic grid system and some basic customizer settings which are required in almost all projects.
+Contributors: Imran Sayed
+Requires at least: 4.0
+Tested up to: 4.4
+Stable tag: 1.1.5
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: left-sidebar, right-sidebar, custom-background, custom-menu, custom-colors, featured-images, flexible-header, theme-options, editor-style, translation-ready, threaded-comments, one-column, two-columns
 
-Last Synced with underscore theme : Dec 12, 2015
+== Description ==
+Canis has been specially designed for blogging websites however due to its clean design and plenty of customization options, it can easily be customized for any purpose.
 
-What more does it have?
----------------
+* Responsive Layout
+* Custom Colors
+* Slider Options
+* Theme Options
+* Page Template
+* Featured Image
+* The GPL v2.0 or later license. :) Use it to make something cool.
 
-1) WordPress Customizer is already setup with some basic customizer settings.
+== Installation ==
 
-2) Basic foundation grids.
+1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
+2. Type in Powen Lite in the search form and press the 'Enter' key on your keyboard.
+3. Click on the 'Activate' button to use your new theme right away.
+4. Go to http://supernovathemes.com/powen-theme/ for a guide on how to customize this theme.
+5. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
-3) Ready made mobile menu.
+== Copyright ==
 
-4) Removed some unnecessary saas files and folder which are shipped with underscore theme.
+Powen Lite, Copyright 2015-2016 SupernovaThemes.com
+Powen Lite is distributed under the terms of the GNU GPL v2 or later.
 
-5) Css fixes, in underscore and helpful css classes.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
 
-6) Some helpful php functions.
-
-7) Grunt file and configration.
-
-8) Slick Slider
-
-9) Dev Lib - https://github.com/xwp/wp-dev-lib
-
-and more..
-
-Getting Started
----------------
-
-1. Search for `'blank-theme'` (inside single quotations) to capture the text domain.
-2. Search for `blank_theme_` to capture all the function names.
-3. Search for `Text Domain: blank-theme` in style.css.
-4. Search for <code>&nbsp;Blank Theme</code> (with a space before it) to capture DocBlocks.
-5. Search for `blank-theme-` to capture prefixed handles.
-6. Install PHP_CodeSniffer
-7. Install wp-dev-lib
-8. Setup pre-commit hook
-
-Install Grunt Packages
----------------
-Recommended command to install grunt packages,
-
-```bash
-npm install --save-dev grunt grunt-autoprefixer grunt-checktextdomain grunt-combine-media-queries foundation-sites grunt-contrib-sass grunt-contrib-uglify grunt-contrib-watch grunt-wp-i18n load-grunt-tasks
-```
-
-Setup PHP_CodeSniffer
----------------
-
-#### Install PEAR
-
-```bash
-sudo apt-get install php-pear
-```
-
-#### Install PHP_CodeSniffer
-
-```bash
-pear install PHP_CodeSniffer
-```
-
-### Setup WordPress Coding Standards
-
-```bash
-cd $(pear config-get php_dir)/PHP/CodeSniffer/Standards
-```
-
-```bash
-[sudo] git clone git://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git
-```
-
-To setup WordPress Coding Standards
-
-```bash
-[sudo] ln -s WordPress-Coding-Standards/WordPress WordPress
-[sudo] ln -s WordPress-Coding-Standards/WordPress-Core WordPress-Core
-[sudo] ln -s WordPress-Coding-Standards/WordPress-Docs WordPress-Docs
-[sudo] ln -s WordPress-Coding-Standards/WordPress-VIP WordPress-VIP
-[sudo] ln -s WordPress-Coding-Standards/WordPress-Extra WordPress-Extra
-```
-
-Install [wp-dev-lib](https://github.com/xwp/wp-dev-lib) as submodule
----------------
-
-Clone with submodule
-
-```bash
-git clone --recursive git@github.com:rtCamp/blank-theme.git
-```
-OR
-
-To install as Git submodule (recommended):
-
-```bash
-git submodule add -b master https://github.com/xwp/wp-dev-lib.git dev-lib
-```
-
-### Install dev-lib submodule for **downloaded** .zip file (recommended):
-
-```bash
-git submodule update --remote dev-lib
-```
-
-Setup pre-commit hook
----------------
-
-To install the pre-commit hook, symlink to [`pre-commit`](https://github.com/xwp/wp-dev-lib/blob/master/pre-commit) from your project's `.git/hooks/pre-commit`:
-
-```bash
-cd .git/hooks && ln -s ../../dev-lib/pre-commit . && cd -
-```
-
-Good luck!
-# canis
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
